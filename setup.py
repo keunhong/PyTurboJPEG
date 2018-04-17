@@ -9,6 +9,7 @@ setup(
     url='https://github.com/lilohuang/PyTurboJPEG',
     license='MIT',
     install_requires=['numpy'],
+    tests_require=['opencv-python'],
     py_modules=['turbojpeg'],
     packages=find_packages(),
     long_description=io.open('README.md', encoding='utf-8').read()
